@@ -6,6 +6,6 @@ type: posts
 draft: false
 ---
 
-A full-stack clone of Spotify built on React-Redux-Rails
+A pixel-perfect full-stack Spotify clone built on React-Redux-Rails
 <!--more-->
 Lorem ipsum dolor
