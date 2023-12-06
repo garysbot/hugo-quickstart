@@ -2,10 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://main--garyjiang.netlify.app/categories/</loc>
+    <loc>https://main--astounding-malasada-01d53c.netlify.app/</loc>
+    <lastmod>2023-12-06T14:50:11-05:00</lastmod>
   </url><url>
-    <loc>http://main--garyjiang.netlify.app/</loc>
+    <loc>https://main--astounding-malasada-01d53c.netlify.app/posts/pacer/</loc>
+    <lastmod>2023-12-06T14:50:11-05:00</lastmod>
   </url><url>
-    <loc>http://main--garyjiang.netlify.app/tags/</loc>
+    <loc>https://main--astounding-malasada-01d53c.netlify.app/posts/</loc>
+    <lastmod>2023-12-06T14:50:11-05:00</lastmod>
+  </url><url>
+    <loc>https://main--astounding-malasada-01d53c.netlify.app/posts/motify/</loc>
+    <lastmod>2023-12-06T14:50:07-05:00</lastmod>
+  </url><url>
+    <loc>https://main--astounding-malasada-01d53c.netlify.app/posts/artifact-adventure/</loc>
+    <lastmod>2023-12-06T14:40:42-05:00</lastmod>
+  </url><url>
+    <loc>https://main--astounding-malasada-01d53c.netlify.app/categories/</loc>
+  </url><url>
+    <loc>https://main--astounding-malasada-01d53c.netlify.app/tags/</loc>
   </url>
 </urlset>

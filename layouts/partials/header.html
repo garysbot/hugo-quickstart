@@ -1,9 +1,9 @@
 <header>
-	<h1 class="header-test"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1><br>
-	<div style="float: left;">{{ .Site.Params.subtitle }}</div><br>
+	<h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1><br>
+	<div style="float: left;" class="subtitle">{{ .Site.Params.subtitle }}</div><br>
 	<p>
 	<nav>
-			<a href="/"><b>Start</b></a>.
+			<!-- <a href="/"><b>Start</b></a>. -->
 			{{ with .Site.Menus.main }}
 			{{ range . }}
 			<a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>.

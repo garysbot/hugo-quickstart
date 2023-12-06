@@ -6,40 +6,35 @@ theme = 'smol'
 # Parameters
 [params]
     subtitle = "Full Stack Developer & Former E-Commerce Entrepreneur"
-    dateFmt = "01.02.2006 03:04"
+    dateFmt = "01.02.2006"
 
 # Header
-[menu]
-  [[menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts/"
-        weight = 1 
+# [menu]
+#   [[menu.main]]
+#         identifier = "posts"
+#         name = "Posts"
+#         url = "/posts/"
+#         weight = 1 
 
-  [[menu.main]]
-        identifier = "categories"
-        name = "Categories"
-        url = "/categories/"
-        weight = 2 
+#   [[menu.main]]
+#         identifier = "categories"
+#         name = "Categories"
+#         url = "/categories/"
+#         weight = 2 
 
-  [[menu.main]]
-        identifier = "tags"
-        name = "Tags"
-        url = "/tags/"
-        weight = 3
+#   [[menu.main]]
+#         identifier = "tags"
+#         name = "Tags"
+#         url = "/tags/"
+#         weight = 3
 
 # Footer
   [[menu.footer]]
         name = "Github"
-        url = "https://github.com/example"
+        url = "https://github.com/garysbot"
         weight = 1 
 
     [[menu.footer]]
-        name = "Mastodon"
-        url = "https://example.com/@user"
-        weight = 2 
-
-    [[menu.footer]]
-        name = "Imprint"
-        url = "/imprint"
-        weight = 3 
+        name = "LinkedIn"
+        url = "https://linkedin.com/in/garyjiang"
+        weight = 2
