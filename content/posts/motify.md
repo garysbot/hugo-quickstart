@@ -7,5 +7,8 @@ draft: false
 ---
 
 A pixel-perfect full-stack Spotify clone built on React-Redux-Rails
+
 <!--more-->
-Lorem ipsum dolor
+
+# Lorem ipsum dolor <img src="/images/Size Limit Logo.svg"  alt="Size Limit logo by Anton Lovchikov" width="39" height="78" align="left">
+

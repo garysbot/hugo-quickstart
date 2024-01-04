@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gary Jiang</title>
-    <link>https://main--astounding-malasada-01d53c.netlify.app/</link>
+    <link>https://imgaryjiang.com/</link>
     <description>Recent content on Gary Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Dec 2023 14:50:11 -0500</lastBuildDate>
-    <atom:link href="https://main--astounding-malasada-01d53c.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://imgaryjiang.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pacer</title>
-      <link>https://main--astounding-malasada-01d53c.netlify.app/posts/pacer/</link>
+      <link>https://imgaryjiang.com/posts/pacer/</link>
       <pubDate>Wed, 06 Dec 2023 14:50:11 -0500</pubDate>
-      <guid>https://main--astounding-malasada-01d53c.netlify.app/posts/pacer/</guid>
+      <guid>https://imgaryjiang.com/posts/pacer/</guid>
       <description>&lt;p&gt;Full-stack MERN platform for finding exercise partners for your favorite sports&lt;/p&gt;</description>
     </item>
     <item>
       <title>Motify</title>
-      <link>https://main--astounding-malasada-01d53c.netlify.app/posts/motify/</link>
+      <link>https://imgaryjiang.com/posts/motify/</link>
       <pubDate>Wed, 06 Dec 2023 14:50:07 -0500</pubDate>
-      <guid>https://main--astounding-malasada-01d53c.netlify.app/posts/motify/</guid>
-      <description>&lt;p&gt;A full-stack clone of Spotify built on React-Redux-Rails&lt;/p&gt;</description>
+      <guid>https://imgaryjiang.com/posts/motify/</guid>
+      <description>&lt;p&gt;A pixel-perfect full-stack Spotify clone built on React-Redux-Rails&lt;/p&gt;</description>
     </item>
     <item>
       <title>Artifact Adventure</title>
-      <link>https://main--astounding-malasada-01d53c.netlify.app/posts/artifact-adventure/</link>
+      <link>https://imgaryjiang.com/posts/artifact-adventure/</link>
       <pubDate>Wed, 06 Dec 2023 14:40:42 -0500</pubDate>
-      <guid>https://main--astounding-malasada-01d53c.netlify.app/posts/artifact-adventure/</guid>
+      <guid>https://imgaryjiang.com/posts/artifact-adventure/</guid>
       <description>&lt;p&gt;A Three.js 3D virtual reality demo featuring The Met Museum API&lt;/p&gt;</description>
     </item>
   </channel>

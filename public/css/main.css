@@ -2,7 +2,6 @@
   --bgcolor: black; 
   --fontcolor: white; 
   --linkcolor: #ae5ee0; 
-  --visitedcolor: #551a8b; 
   --precolor: #fff; 
   --prebgcolor: #383838;
 }
@@ -20,17 +19,17 @@ body {
   background: var(--bgcolor)
 }
 
+footer {
+  margin-top: 6rem;
+}
+
 a {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
 
 a:link {
-  color: var(--linkcolor)
-}
-
-a:visited {
-  color: var(--visitedcolor)
+  color: var(--linkcolor);
 }
 
 a:hover {
@@ -38,7 +37,7 @@ a:hover {
 }
 
 a:active {
-  color: var(--visitedcolor) 
+  color: var(--linkcolor); 
 }
 
 h1 {
