@@ -5,7 +5,7 @@ theme = 'smol'
 
 # Parameters
 [params]
-subtitle = "Full Stack Developer w/ bg in Growth Marketing 📈 + Creative 🎨"
+subtitle = "Full Stack Developer w/ a bg in Growth Marketing 📈 + Creative 🎨"
 dateFmt = "01.02.2006"
 
 # HTML
