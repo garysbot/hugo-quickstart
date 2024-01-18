@@ -17,14 +17,14 @@ A Three.js 3D virtual reality demo featuring The Met Museum API
 <!-- ! "Read more..." -->
 <!--more-->
 
-Artifact Adventure is a dynamic Three.js demo that transforms curated art from The Met Museum's API into an immersive 3D experience directly in your browser.
+Artifact is a dynamic Three.js demo that transforms curated art from The Met Museum's API into an immersive 3D experience directly in your browser.
 
-[Visit Artifact Adventure](https://garysbot.github.io/artifact-adventure/)
+[Visit Artifact](https://garysbot.github.io/artifact-adventure/)
 <br>
-![Artifact Adventure Environment GIF](https://github.com/garysbot/artifact-adventure/raw/main/static/readme/gifs/environment.gif)<br><br>
+![Artifact Environment GIF](https://github.com/garysbot/artifact-adventure/raw/main/static/readme/gifs/environment.gif)<br><br>
 
 ## Features
-In Artifact Adventure, users:
+In Artifact, users:
 - Navigate a first-person 3D virtual art exhibit with WASD and mouse controls.
 - Render different virtual environments instantly.
 - Lighting, shadows, textures, and reflections respond in real-time to their virtual environments.
@@ -32,7 +32,7 @@ In Artifact Adventure, users:
 <br><br>
 
 ## Instructions
-Interacting with [Artifact Adventure](https://garysbot.github.io/artifact-adventure/) is easy and intuitive:
+Interacting with [Artifact](https://garysbot.github.io/artifact-adventure/) is easy and intuitive:
 - ***Start*** the demo with a ***left-click*** on your mouse.
 - ***Move*** around the 3D environment with your ***WASD*** keys.
 - ***Look*** at your surroundings with your ***mouse***.
@@ -43,7 +43,7 @@ Interacting with [Artifact Adventure](https://garysbot.github.io/artifact-advent
 ## Object-Oriented Design Principles
 Each Three.js component handles a specific part of WebGL to render high-performance 3D graphics in your browser.
 
-Artifact Adventure is composed of the following components:
+Artifact is composed of the following components:
 - Camera
 - Scene
 - Lights
@@ -53,7 +53,7 @@ Artifact Adventure is composed of the following components:
 <br><br>
 
 ## The Experience
-![Artifact Adventure Environment GIF](https://github.com/garysbot/artifact-adventure/raw/main/static/readme/gifs/environment.gif)<br>
+![Artifact Environment GIF](https://github.com/garysbot/artifact-adventure/raw/main/static/readme/gifs/environment.gif)<br>
 
 The `Experience` class manages the complete experience by:
 1. Accepting a HTML `canvas` DOM element as an argument,
@@ -76,7 +76,7 @@ this.time.on('tick', () => {
 ```
 <br>
 
-![Artifact Adventure Animation GIF](https://github.com/garysbot/artifact-adventure/raw/main/static/readme/gifs/animation.gif)<br>
+![Artifact Animation GIF](https://github.com/garysbot/artifact-adventure/raw/main/static/readme/gifs/animation.gif)<br>
 
 ```javascript
 // Experience.js
@@ -102,7 +102,7 @@ this.renderer.update();
 The `Environment` class handles the creation and rendering of the lighting, environment map and mesh objects.
 <br>
 
-![Artifact Adventure Environment Map GIF](https://github.com/garysbot/artifact-adventure/raw/main/static/readme/gifs/environmentmap.gif)<br>
+![Artifact Environment Map GIF](https://github.com/garysbot/artifact-adventure/raw/main/static/readme/gifs/environmentmap.gif)<br>
 
 ```javascript
 setEnvironmentMap = () => {
@@ -114,7 +114,7 @@ setEnvironmentMap = () => {
 ```
 <br>
 
-![Artifact Adventure Floor GIF](static/readme/gifs/floor.gif)<br>
+![Artifact Floor GIF](static/readme/gifs/floor.gif)<br>
 
 ```javascript
 setFloor = () => {
@@ -135,7 +135,7 @@ setFloor = () => {
 ```
 <br>
 
-![Artifact Adventure Lighting GIF](static/readme/gifs/lighting.gif)<br>
+![Artifact Lighting GIF](static/readme/gifs/lighting.gif)<br>
 
 ```javascript
 setLight(){
