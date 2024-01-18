@@ -37,7 +37,7 @@ a:hover {
 }
 
 a:active {
-  color: var(--linkcolor); 
+  color: white; 
 }
 
 h1 {
