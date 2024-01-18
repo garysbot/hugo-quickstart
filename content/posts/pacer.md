@@ -20,10 +20,10 @@ The *Pacer* platform helps you connect with people playing your favorite sport a
 👉
 [Live Demo](https://pacer-65mk.onrender.com/)
 👈
-<br>
+
 <br>
 
-### Features
+## Features
 1. User Auth
 2. Events (CRUD) w/ Interactive Google Map
 3. Google Maps API Integration (Dynamic Map, Static Map, & Places API)
@@ -31,40 +31,42 @@ The *Pacer* platform helps you connect with people playing your favorite sport a
 5. Discover Events Page
 6. Event Social Stats
 7. Event Comments (CRUD)
+
 <br>
 
-
-### Plan
+## Plan
 1. Audience Value Props
 ![Audience-Value-Props](https://github.com/garysbot/pacer/raw/main/frontend/src/readme-imgs/audience-value-props.png)
-<br><br>
+<br>
 
 1. App Architecture & Data Flow
-![Data-Architecture-Flow](./frontend/src/readme-imgs/data-architecture.png)
+![Data-Architecture-Flow](https://github.com/garysbot/pacer/raw/main/frontend/src/readme-imgs/data-architecture.png)
 
 1. Design
-![Design-1-Discover](./frontend/src/readme-imgs/design-1-discover.png)
-![Design-2-EventShow](./frontend/src/readme-imgs/design-2-event-show.png)
+![Design-1-Discover](https://github.com/garysbot/pacer/raw/main/frontend/src/readme-imgs/design-1-discover.png)
+![Design-2-EventShow](https://github.com/garysbot/pacer/raw/main/frontend/src/readme-imgs/design-2-event-show.png)
 
+<br>
+<br>
 
-### Tech Stack
+## Tech Stack
 - MongoDB
 - ExpressJS
 - React.js
 - Node.js
 <br>
 
-### Notable Highlights
-![User-Auth](./frontend/src/icons/user-auth-login.gif)
-![User-Auth-Sign-Up](./frontend/src/icons/pacer-sign-up-modal.gif)
+## Notable Highlights
+![User-Auth](https://github.com/garysbot/pacer/raw/main/frontend/src/icons/user-auth-login.gif)
+![User-Auth-Sign-Up](https://github.com/garysbot/pacer/raw/main/frontend/src/icons/pacer-sign-up-modal.gif)
 <br>*User Authentication Modals*<br>
 
 
-![Sports-Ranking](./frontend/src/icons/sports-feature.gif)
+![Sports-Ranking](https://github.com/garysbot/pacer/raw/main/frontend/src/icons/sports-feature.gif)
 <br>*Event Filter*<br>
 
 
-![Google-Map](./frontend/src/icons/google-map.gif)
+![Google-Map](https://github.com/garysbot/pacer/raw/main/frontend/src/icons/google-map.gif)
 <br>*Google Maps API Integration*<br>
 <br>
 
@@ -127,7 +129,7 @@ const validateEventInput = [
 2. Static map preview on `Discover` page.
 3. Places API autocomplete search results when selecting an `Event` location.
 
-![Places-Autocomplete](./frontend/src/icons/places-autocomplete.gif)
+![Places-Autocomplete](https://github.com/garysbot/pacer/raw/main/frontend/src/icons/places-autocomplete.gif)
 <br>
 
 ```javascript
@@ -198,13 +200,13 @@ router.post('/', requireUser, validateCommentInput, async (req, res, next) => {
   - Displays all `Events` available for `Users`.
   - `Event POST` feature to create new `Events`.
   - Session and `User` validation required to create new `Events`.
-  ![Discover-Page](./frontend/src/icons/discover.gif)
+  ![Discover-Page](https://github.com/garysbot/pacer/raw/main/frontend/src/icons/discover.gif)
 
 - `Event` Page 
   - Displays `Event` details from Redux state.
   - Attending & Interested buttons with integration to update Redux and MongoDB.
   - `Comments POST` feature to create new `Comments`.
-![Event-Page](./frontend/src/icons/events.gif)
+![Event-Page](https://github.com/garysbot/pacer/raw/main/frontend/src/icons/events.gif)
 <br>
 
 ### State Management with Redux
