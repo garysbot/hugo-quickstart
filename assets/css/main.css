@@ -4,6 +4,7 @@
   --linkcolor: #ae5ee0; 
   --precolor: #fff; 
   --prebgcolor: #383838;
+  font: monospace;
 }
 
 html {
@@ -37,7 +38,7 @@ a:hover {
 }
 
 a:active {
-  color: white; 
+  color: var(--linkcolor); 
 }
 
 h1 {
@@ -152,6 +153,7 @@ header h1 {
   padding: 0;
   margin: 0;
   text-align: center;
+  font-family: monospace;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 0.02em;
