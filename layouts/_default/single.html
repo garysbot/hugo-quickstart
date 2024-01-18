@@ -2,7 +2,8 @@
 	<main>
 		<article>
 			<h2>{{ .Title }}</h2>
-			<b><time>{{ .Date.Format (default "2006-01-02" .Site.Params.dateFmt) }}</time></b>
+			<!-- ! Date Subheader in each Post -->
+			<!-- <b><time>{{ .Date.Format (default "2006-01-02" .Site.Params.dateFmt) }}</time></b> -->
 		       {{ range .Params.tags }}
 		           <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
         	       {{ end }}

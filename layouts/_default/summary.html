@@ -1,13 +1,14 @@
 <article>
 	<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-	<b><time>{{ .Date.Format (default "2006-01-02" .Site.Params.dateFmt) }}</time></b>
+	<!-- ! Date Subtitle on homepage -->
+	<!-- <b><time>{{ .Date.Format (default "2006-01-02" .Site.Params.dateFmt) }}</time></b> -->
 	{{ range .Params.tags }}
 	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 	{{ end }}
 	<div>
 		{{ .Summary }}
 		{{ if .Truncated }}
-			<a href="{{ .Permalink }}">Learn more...</a>
+			<a href="{{ .Permalink }}">See more...</a>
 		{{ end }}
 	</div>
 </article>
