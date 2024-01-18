@@ -18,6 +18,27 @@ Full-stack MERN platform for finding exercise partners for your favorite sports
 <!--more-->
 <br>
 
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Idea](#idea)
+- [Features](#features)
+- [Plan](#plan)
+- [Tech Stack](#tech-stack)
+- [Notable Highlights](#notable-highlights)
+- [Implementation](#implementation)
+  - [Data Architecture with Mongoose \& MongoDB](#data-architecture-with-mongoose--mongodb)
+- [Google Maps API Integration](#google-maps-api-integration)
+  - [Integrated three Google Maps API endpoints:](#integrated-three-google-maps-api-endpoints)
+- [Express.js Routing](#expressjs-routing)
+- [React.js Components](#reactjs-components)
+- [State Management with Redux](#state-management-with-redux)
+- [Challenges](#challenges)
+- [Team](#team)
+  - [Gary Jiang](#gary-jiang)
+  - [Jason Jun](#jason-jun)
+  - [Francis Cawog](#francis-cawog)
+  - [Robert Lee](#robert-lee)
+
 ## Idea
 *"I hate running alone but my friends run way too fast. I wish I had my own personal Pacer..."*
 <br><br>
@@ -79,8 +100,8 @@ The *Pacer* platform helps you connect with people playing your favorite sport a
 <br>
 
 
-### Implementation
-####  Data Architecture with Mongoose & MongoDB
+## Implementation
+###  Data Architecture with Mongoose & MongoDB
 
 Mongoose Models: `Events`, `Users`, `Comments`
 ```javascript
@@ -132,6 +153,8 @@ const validateEventInput = [
 ```
 <br>
 
+## Google Maps API Integration
+
 ### Integrated three Google Maps API endpoints:
 1. Dynamic interactive map on `Events` page.
 2. Static map preview on `Discover` page.
@@ -174,7 +197,7 @@ const validateEventInput = [
 ```
 <br>
 
-### Routing with Express.js
+## Express.js Routing
 - Three RESTful Express routes for `Users`, `Events`, `Comments`
 - Full CRUD for `Events` and `Comments`
 
@@ -202,7 +225,7 @@ router.post('/', requireUser, validateCommentInput, async (req, res, next) => {
 ```
 <br>
 
-### Main React.js Components
+## React.js Components
 - `Discover` Page:
   - Primary user interface with comprehensive `Event` filtering feature.
   - Displays all `Events` available for `Users`.
@@ -217,7 +240,7 @@ router.post('/', requireUser, validateCommentInput, async (req, res, next) => {
 ![Event-Page](https://github.com/garysbot/pacer/raw/main/frontend/src/icons/events.gif)
 <br>
 
-### State Management with Redux
+## State Management with Redux
 - Redux implemented for state management enhancing UI load times and reducing unnecessary API calls.
 - Redux slices of state for `Users`, `Events`, `Comments`.
 - `Events` reducer:
