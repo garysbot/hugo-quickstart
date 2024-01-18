@@ -14,7 +14,7 @@ A pixel-perfect full-stack Spotify clone built on React, Redux and Ruby on Rails
   <img alt="Rails" src="https://img.shields.io/badge/-Rails-CC0000?style=flat-square&logo=rubyonrails&logoColor=white" />
 </div>
 
-<!-- ! "Learn more..." -->
+<!-- ! "Read more..." -->
 <!--more-->
 
 ![Motify Overview](https://github.com/garysbot/motify/raw/main/readme/motify-overview.png)
