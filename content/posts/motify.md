@@ -7,7 +7,7 @@ draft: false
 ---
 
 <!-- ! Post Header -->
-A pixel-perfect full-stack Spotify clone built on React, Redux and Ruby on Rails
+A pixel-perfect full-stack Spotify clone built with React, Redux and Ruby on Rails
 <div class="stack-logos">
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
   <img alt="Redux" src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
@@ -29,7 +29,7 @@ The Motify application employs a modern full-stack architecture:
 <img alt="Redux" src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
 - Node.js
 <img alt="Nodejs" src="https://img.shields.io/badge/-Node.js-43853d?style=flat-square&logo=Node.js&logoColor=white" />
-- HTML, CSS, Vanilla JavaScript
+- HTML, CSS, and Vanilla JavaScript
 <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /><img alt="css3" src="https://img.shields.io/badge/-CSS3-264de4?style=flat-square&logo=css3&logoColor=white" /><img alt="javascript" src="https://img.shields.io/badge/-Javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
 
 
@@ -38,7 +38,7 @@ The Motify application employs a modern full-stack architecture:
 
 The front end is built with React, leveraging HTML, CSS, and JavaScript to deliver a responsive user interface and user experience. State management within the front end is handled by Redux, which serves as a predictable state container, interfacing with middleware for asynchronous events.
 
-Routing is managed through a combination of React for component rendering and Node.js for server-side logic, facilitating the navigation within the application.
+Routing is managed through a combination of React for component rendering and Node.js for server-side logic, facilitating navigation within the application.
 
 The backend is powered by Ruby on Rails, providing a robust server-side framework. Data persistence is achieved with PostgreSQL, a powerful object-relational database system. The data serialization is handled by jBuilder, allowing for the creation of JSON structures that are consumed by the front end.
 
@@ -50,7 +50,7 @@ This architecture supports a scalable, maintainable, and interactive web applica
 <br>
 
 -   **Playlist Management**: 
-Comprehensive playlist management, including CRUD operations, song addition/removal, and custom playlist titles.
+Comprehensive playlist management, including CRUD operations, song addition and removal, and custom playlist titles.
 <br>
 
 -   **Hosting**: 
@@ -66,12 +66,12 @@ Real-time search across artists, songs, albums, and playlists.
 -   **User Authentication**: 
   Secure login, registration, and session management with demo account access.
   ![Motify Signup Flow](./readme/motify-signup-flow.gif)
-  ![Motify Signup Flow](./readme/motify-login-flow.gif)
+  ![Motify Login Flow](./readme/motify-login-flow.gif)
 <br>
 
 
 ## UI/UX Design Philosophy
-Spotify's design philosophy revolves around ;
+Spotify's design philosophy revolves around simplicity, intuitive navigation, and a focus on the music listening experience.
 
 
 ## Highlighted Features
@@ -202,7 +202,7 @@ export default SongsTable
 ## Future Features
 - Enhanced user and artist profiles.
 - Social features to follow and unfollow users and artists.
-- Like/unlike functionality for songs, albums, and playlists.
+- Like and unlike functionality for songs, albums, and playlists.
 - Dynamic playlist cover generation based on song selection.
 
 <br>
